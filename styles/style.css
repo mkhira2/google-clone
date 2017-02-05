@@ -152,6 +152,7 @@ SEARCH BAR BUTTONS
 
 .button-1:hover, .button-2:hover {
 	cursor: pointer;
+	border: 1px solid black;
 }
 
 
