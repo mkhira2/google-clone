@@ -31,7 +31,7 @@ INITIAL SETUP
 	text-align: right;
 	top: 0;
 	right: 0;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .nav-icon {
@@ -51,7 +51,10 @@ NAVIGATION BAR BEHAVIOR
 
 .nav-icon:nth-child(5) {
 	color: blue;
-	font-size: 18px;
+}
+
+.nav-icon:nth-child(3), .nav-icon:nth-child(4), .nav-icon:nth-child(5) {
+	font-size: 20px;
 }
 
 .nav-icon:nth-child(3):hover, .nav-icon:nth-child(4):hover {
