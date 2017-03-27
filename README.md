@@ -1,1 +1,0 @@
-Recreated google.com homepage for fun.
