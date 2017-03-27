@@ -1,170 +1,155 @@
-/*------------------------------
+/*--------------------------------------------------
 ALWAYS INCLUDE
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 * {
-	box-sizing: border-box;
-	font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 INITIAL SETUP
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 .container {
-	max-width: 100%;
-	padding-top: 75px;
-	text-align: center;
+    max-width: 100%;
+    padding-top: 75px;
+    text-align: center;
 }
 
 .nav {
-	text-align: right;
-	top: 0;
-	right: 0;
-	font-size: 14px;
+    text-align: right;
+    top: 0;
+    right: 0;
+    font-size: 14px;
 }
 
 .nav-icon {
-	display: inline-block;
-	text-align: right;
-	margin: 0 10px;
-	color: grey;
+    display: inline-block;
+    text-align: right;
+    margin: 0 10px;
+    color: grey;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 NAVIGATION BAR BEHAVIOR
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 .nav-icon:nth-child(5) {
-	color: blue;
+    color: blue;
 }
 
-.nav-icon:nth-child(3), .nav-icon:nth-child(4), .nav-icon:nth-child(5) {
-	font-size: 20px;
+.nav-icon:nth-child(3),
+.nav-icon:nth-child(4),
+.nav-icon:nth-child(5) {
+    font-size: 20px;
 }
 
-.nav-icon:nth-child(3):hover, .nav-icon:nth-child(4):hover {
-	color: darkgrey;
+.nav-icon:nth-child(3):hover,
+.nav-icon:nth-child(4):hover {
+    color: darkgrey;
 }
 
 .nav-icon:nth-child(5):hover {
-	color: cornflowerblue;
+    color: cornflowerblue;
 }
 
 .nav-icon:hover {
-	cursor: pointer;
-	text-decoration: underline;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 "GOOGLE" FONT SIZE AND COLORING
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 h1 {
-	font-size: 75px;
-	margin-bottom: 20px;
+    font-size: 75px;
+    margin-bottom: 20px;
 }
 
 h1::first-letter {
-	color: royalblue;
+    color: royalblue;
 }
 
 .second {
-	color: tomato;
+    color: tomato;
 }
 
 .third {
-	color: orange;
+    color: orange;
 }
 
 .fourth {
-	color: royalblue;
+    color: royalblue;
 }
 
 .fifth {
-	color: seagreen;
+    color: seagreen;
 }
 
 .sixth {
-	color: tomato;
+    color: tomato;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 SEARCH BAR
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 .search-bar {
-	width: 50%;
+    width: 50%;
 }
 
 input {
-	font-size: 24px;
+    font-size: 24px;
 }
 
 .search-icon {
-	margin: 10px;
-	padding-right: 20px;
+    margin: 10px;
+    padding-right: 20px;
 }
 
 .fa-microphone:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 SEARCH BAR BUTTONS
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 .icons {
-	display: inline-block;
+    display: inline-block;
 }
 
-.button-1, .button-2 {
-	display: inline-block;
-	font-size: 18px;
-	margin: 0 10px;
+.button-1,
+.button-2 {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 10px;
 }
 
-.button-1:hover, .button-2:hover {
-	cursor: pointer;
-	border: 1px solid black;
+.button-1:hover,
+.button-2:hover {
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 
-
-/*------------------------------
+/*--------------------------------------------------
 MEDIA QUERY
-------------------------------*/
-
-
+--------------------------------------------------*/
 
 @media (max-width: 500px) {
-	.nav {
-		text-align: center;
-	}
+    .nav {
+        text-align: center;
+    }
 }
